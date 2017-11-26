@@ -7,15 +7,18 @@
 
 # Setup
 
-##Database Setup
+#Database Setup
  - Start XAMPP Server
  - Create a database, say sample-app
  - Import database.sql file to above sample-app database
-##PHP Setup
- - Download files to local directory say direcotry sample-app
+
+#PHP Setup
+
+ - Download this repository files to local directory say direcotry sample-app
  - Go to sample-app folder and update the .env file with your local database settings like database name, username and password, like:
  - DB_DATABASE=sample-app
  - DB_USERNAME=root
  - DB_PASSWORD=
- ##View in browser
+
+ #View in browser
   - http://localhost/sample-app/public/
